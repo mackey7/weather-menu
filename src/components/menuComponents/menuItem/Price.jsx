@@ -1,10 +1,8 @@
 import React from 'react';
 
-const Price = () => {
+const Price = props => {
     return (
-        <div>
-            Price
-        </div>
+        <span>{props.price}</span>
     )
 }
 export default Price;
