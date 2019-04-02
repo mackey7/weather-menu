@@ -6,9 +6,7 @@ const Form = () => {
         <form action="">
             <Input type="text" placeholder="e-mail" />
             <Input type="password" placeholder="password" />
-            <Button />
-
-
+            <Button value="Log In" />
         </form>
     )
 }
