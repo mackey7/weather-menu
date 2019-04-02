@@ -4,8 +4,8 @@ import Button from './Button.jsx'
 const Form = () => {
     return (
         <form action="">
-            <Input />
-            <Input />
+            <Input type="text" placeholder="e-mail" />
+            <Input type="password" placeholder="password" />
             <Button />
 
 
