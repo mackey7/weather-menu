@@ -6,7 +6,7 @@ import styled from 'styled-components'
 
 const MenuComponentWrapper = styled.div`
     background: rgb(204, 211, 238);
-    height:100vh;
+    min-height:100vh;
     width:100%;
     display:flex;
     justify-content:center;
@@ -16,6 +16,8 @@ const MenuContainer = styled.section`
     display:flex;
     flex-direction:column;
     align-content: space-between;
+    justify-content:space-between;
+    height:100%;
     margin:40px;
     padding:20px;
     width:80%;

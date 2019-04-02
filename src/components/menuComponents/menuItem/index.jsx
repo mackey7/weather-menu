@@ -3,14 +3,19 @@ import Image from "./Image"
 import Title from './Title'
 import Price from './Price'
 import PropTypes from 'prop-types';
+import styled from 'styled-components'
+
+const Item = styled.section`
+display:flex;
+`;
 
 const MenuItem = (props) => {
     return (
-        <div>
+        <Item>
             <Image src={props.src} alt={props.alt} />
             <Title title={props.title} />
             <Price price={props.price} />
-        </div>
+        </Item>
     )
 }
 MenuItem.propTypes = {
