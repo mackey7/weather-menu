@@ -18,7 +18,7 @@ height:100vh;
 const LoginPageWrapper = () => {
     return (
         <Section>
-            <Header text="Login" />
+            <Header text="Admin panel" />
             <Form />
         </Section>
     )
