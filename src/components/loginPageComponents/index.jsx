@@ -6,7 +6,7 @@ import Form from './Form.jsx'
 const LoginPageWrapper = () => {
     return (
         <section>
-            <Header />
+            <Header text="Login" />
             <Form />
         </section>
     )
