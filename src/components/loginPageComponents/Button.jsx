@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const LoginButton = styled.input`
     padding:10px 20px;
@@ -20,5 +21,8 @@ const Button = (props) => {
     return (
         <LoginButton type="button" value={props.value} />
     )
+}
+Button.propTypes = {
+    value: PropTypes.string
 }
 export default Button
