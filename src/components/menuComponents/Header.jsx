@@ -1,11 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components'
+
+const H1 = styled.h1`
+text-align:center;
+font-size:50px;
+`;
 
 const Header = props => {
     return (
-        <h1>
+        <H1>
             {props.text}
-        </h1>
+        </H1>
     )
 }
 Header.propTypes = {
