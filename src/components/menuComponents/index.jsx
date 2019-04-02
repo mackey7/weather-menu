@@ -5,7 +5,7 @@ import Header from './Header'
 const MenuComponent = () => {
     return (
         <div>
-            <Header />
+            <Header text="Menu" />
             <MenuItem />
         </div>
     )
