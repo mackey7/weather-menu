@@ -1,9 +1,12 @@
 import React from 'react';
 import Image from "./Image"
+import Title from './Title'
 const MenuItem = () => {
     return (
         <div>
-            <Image />
+            <Image src={props.src} alt={props.alt} />
+            <Title title={props.title} />
+
         </div>
     )
 }
