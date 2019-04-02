@@ -6,6 +6,7 @@ padding:10px 20px;
 border:0;
 margin-bottom:10px;
 width:300px;
+background:#fff;
 `
 
 const Input = (props) => {
