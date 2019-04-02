@@ -6,7 +6,7 @@ const MenuComponent = () => {
     return (
         <div>
             <Header text="Menu" />
-            <MenuItem src="d" alt="zdjecie" title="nazwa produktu" price='12' />
+            <MenuItem src="img" alt="zdjecie" title="nazwa produktu" price='12' />
         </div>
     )
 }
